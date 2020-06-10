@@ -16,7 +16,7 @@ Please cite our paper when you use this code in your work.
 ```
 Put the [**Pre-trained glove embedding**](http://nlp.stanford.edu/data/glove.6B.zip): ***glove.6B.300d.txt*** in /vectors/.
 
-[**Trained NLI model**](https://drive.google.com/file/d/1Qawz1pMcV0aGLVYzOgpHPgG5vLSKPOJ1/view?usp=sharing)***pytorch_model.bin*** in /data/nli_model/.
+[**Trained NLI model**](https://drive.google.com/file/d/1Qawz1pMcV0aGLVYzOgpHPgG5vLSKPOJ1/view?usp=sharing) ***pytorch_model.bin*** in /data/nli_model/.
 ## Experiment
 
 The code is for the experiment of CMAML on [**Persona-chat**](https://arxiv.org/abs/1801.07243). The scripts for training and evaluation are "train.sh" and "test.sh".
