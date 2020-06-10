@@ -19,7 +19,7 @@ Put the [**Pre-trained glove embedding**](http://nlp.stanford.edu/data/glove.6B.
 [**Trained NLI model**](https://drive.google.com/file/d/1Qawz1pMcV0aGLVYzOgpHPgG5vLSKPOJ1/view?usp=sharing) ***pytorch_model.bin*** in /data/nli_model/.
 ## Experiment
 
-The code is for the experiment of CMAML on [**Persona-chat**](https://arxiv.org/abs/1801.07243). The scripts for training and evaluation are "train.sh" and "test.sh".
+The code is for the experiment of our model CMAML-Seq2SPG on [**Persona-chat**](https://arxiv.org/abs/1801.07243). The scripts for training and evaluation are "train.sh" and "test.sh".
 
 After training, please set the "--save_model" as the model with the lowest PPL in validation set to evaluate the model.
 ## Acknowledgement
