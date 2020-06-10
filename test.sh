@@ -1,0 +1,1 @@
+python eval.py --cuda --batch_size 16 --use_sgd --lr 0.01 --meta_lr 0.0003 --meta_batch_size 16 --meta_optimizer adam --pretrain_emb --weight_sharing --emb_dim 300 --hidden_dim 300 --save_path save/cmaml/model_55_45.7299_0.0000_0.0000_0.0000_1.1000 --save_path_dataset save/cmaml/ --test
